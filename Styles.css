@@ -1,0 +1,53 @@
+html{
+	background-color: lightblue;
+}
+
+table, tr, td{
+	color: green;
+	border: 1px solid black;
+	background-color: lightyellow;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 15px;
+   text-decoration: none;
+}
+
+div#title{
+   color: yellow;
+   font-family: "Arial", arial, sans-serif;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+img{
+   border: 10px solid black;
+}
+
+ul#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
